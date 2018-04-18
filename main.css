@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, 'Arial', sans-serif;
+  overflow-x:hidden;
+}
+
+h1,
+h2 {
+  padding-top: 10vh;
+  color: white;
+  text-align: center;
+}
+
+.mb_parallax_container {
+  height: 65vh;
+  min-height:400px;
+  width: 100vw;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Parallax Overlay */
+.mb_parallax_overlay {
+  height: auto;
+  max-height:768px;
+  width: 100%;  
+  padding-top: 9vh;
+  position:absolute;
+  background-color: transparent;
+}
+
+.diagonal {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    background-color: transparent;
+    opacity: .85;
+    background: linear-gradient(-72deg,#322623 53%,transparent 0),linear-gradient(-45deg,#334758 100%,transparent 0);
+}
+
+.mb_parallax_overlay .pin {
+        background-color: rgba(0,0,0,0.4);
+        display: block;
+        height: 200px;
+        width: 200px;
+        line-height: 60px;
+        border-radius: 100px;
+        position:absolute;
+        margin-top:15px;
+        z-index: -1;
+        margin-left:22vh;
+    
+}
+
+.mb_parallax_overlay .pinsection {
+        position:fixed;
+}
+
+.mb_parallax_overlay .pinimg {
+        margin-left:29vh;
+}
+
+/* Left Div */
+.mb_parallax_overlay .left {
+        align-content:left;
+        width:200px;
+        float:left;
+}
+
+.mb_parallax_overlay .left h1 {
+        font-size:20px;
+        font-weight:400;
+        text-align: left;
+        word-spacing: 2px;
+        letter-spacing: 0.5px;
+        padding-top:61px;
+}
+
+.mb_parallax_overlay .left p {
+        font-size:12px;
+        font-weight:100;
+        text-align: left;
+        color: white;
+        width:220px;
+        line-height:16px;
+}
+
+.mb_parallax_overlay .left button {
+        background-color:#18a3b4;
+        border:3px solid white;
+        width:130px;
+        height:30px;
+        margin-top:12px;
+        padding:0;
+        border-radius: 6px;
+        color: white;
+        font-weight: 600;
+    
+}
+
+.mb_parallax_overlay .left button:hover {
+        background-color:white;
+        border:3px solid #18a3b4;
+        color: #000;
+        cursor:pointer;
+}
+
+/* Right Div */
+.mb_parallax_overlay .right {
+        align-content:right;
+        padding-right:22vh;
+        padding-left:;
+        width:200px;
+        float:right;
+        margin-left:6vh;
+}
+
+.mb_parallax_overlay .right .topicons {
+        height:80px;
+}
+
+.mb_parallax_overlay .right h1 {
+        font-size:12px;
+        font-weight:400;
+        text-align: center;
+        word-spacing: 2px;
+        letter-spacing: 0.5px;
+        padding-bottom:5px;
+}
+
+.mb_parallax_overlay .right p {
+        font-size:10px;
+        font-weight:100;
+        text-align:inherit;
+        color: white;
+        width:220px;
+        line-height:16px;
+        padding-top:10px;
+}
+
+.mb_parallax_overlay .right .img1 {
+        background-color: rgba(0,0,0,0.4);
+        border-radius:100%;
+        border: 1px solid transparent;
+        padding:32px 12px 10px 12px;
+}
+
+.mb_parallax_overlay .right #img1 {
+        float:left;
+        width:75px;
+}
+
+.mb_parallax_overlay .right .img2 {
+        background-color: rgba(0,0,0,0.4);
+        border-radius:100%;
+        border: 1px solid transparent;
+        padding:32px 12px 10px 12px;
+}
+
+.mb_parallax_overlay .right #img2 p {
+        margin-left:9px;
+}
+
+.mb_parallax_overlay .right #img2 {
+        float:left;
+        width:75px;
+        margin-left:30px;
+        margin-top:-3px;
+}
+
+.mb_parallax_overlay .right .img3 {
+        background-color: rgba(0,0,0,0.4);
+        border-radius:100%;
+        border: 1px solid transparent;
+        padding:32px 12px 10px 12px;
+}
+
+.mb_parallax_overlay .right #img3 {
+        float:left;
+        width:75px;
+}
+
+.mb_parallax_overlay .right .img4 {
+        background-color: rgba(0,0,0,0.4);
+        border-radius:100%;
+        border: 1px solid transparent;
+        padding:32px 12px 10px 12px;
+}
+
+.mb_parallax_overlay .right .img4 img {
+        padding-bottom:4px;
+}
+
+.mb_parallax_overlay .right #img4 {
+        float:left;
+        width:75px;
+}
+
+#mb_parallax_one {
+  background-image: url(images/people.png);
+  background-color: rgba(0,0,0,0.9);
+}
+
+
+#mb_parallax_two {
+  background-color: #18a3b4;
+  height:200px;
+}
